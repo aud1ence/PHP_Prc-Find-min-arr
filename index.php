@@ -26,7 +26,7 @@ function findMin($arr) {
 <body>
     <h2>Find min</h2>
 <form method="post">
-    <input type="text" name="value" placeholder="Nhap tung phan tu">
+    <input style="width: 290px" type="text" name="value" placeholder="Nhap tung phan tu phan tach bang dau cach">
     <input type="submit" id="input" value="Nhap">
     <input type="submit" id="output" value="Tim">
     <p>Vi tri phan tu nho nhat la: <?= $index; ?></p>
